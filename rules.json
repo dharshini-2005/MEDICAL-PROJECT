@@ -1,0 +1,27 @@
+[
+  {
+    "symptoms": ["fever", "cough", "sore throat"],
+    "disease": "Common Cold",
+    "advice": "Drink fluids, rest, and consult a doctor if symptoms persist."
+  },
+  {
+    "symptoms": ["fever", "body pain", "headache"],
+    "disease": "Dengue",
+    "advice": "Get tested for dengue and stay hydrated."
+  },
+  {
+    "symptoms": ["chest pain", "shortness of breath"],
+    "disease": "Heart Disease",
+    "advice": "Consult a cardiologist immediately."
+  },
+  {
+    "symptoms": ["fatigue", "increased thirst", "frequent urination"],
+    "disease": "Diabetes",
+    "advice": "Get your blood sugar checked."
+  },
+  {
+    "symptoms": ["fever", "body pain", "headache"],
+    "disease": "Viral Infection",
+    "advice": "Take rest, stay hydrated, and consult a doctor if it persists."
+  }
+]
