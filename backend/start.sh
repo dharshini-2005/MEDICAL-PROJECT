@@ -2,7 +2,7 @@
 set -e
 
 echo "📦 Installing Python ML dependencies..."
-pip install -r ml/requirements.txt
+pip install --break-system-packages -r ml/requirements.txt
 
 echo "🤖 Starting ML service on port 8000 in background..."
 python -m uvicorn ml.main:app --host 0.0.0.0 --port 8000 &
