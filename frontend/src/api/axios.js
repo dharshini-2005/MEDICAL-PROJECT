@@ -1,9 +1,10 @@
 import axios from 'axios';
 
+// Hardcoded for production — prevents env variable duplication issues
+const BASE_URL = 'https://medical-project-tdze.onrender.com/api';
+
 const api = axios.create({
-  // In production REACT_APP_API_URL = https://your-backend.onrender.com/api
-  // In development it falls back to the proxy defined in package.json
-  baseURL: process.env.REACT_APP_API_URL || '/api'
+  baseURL: BASE_URL
 });
 
 // Attach JWT from localStorage to every request
